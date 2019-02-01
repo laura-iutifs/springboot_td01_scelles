@@ -3,6 +3,9 @@ package s4.spring.models;
 public class Element {
 	private String nom;
 	private int evaluation;
+	public Element() {
+		this.nom="scelles";
+	}
 
 	// -----------------------------------
 	public String getNom() {
